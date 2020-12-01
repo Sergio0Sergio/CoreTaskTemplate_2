@@ -15,6 +15,13 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args){
+        UserDao userDao = new UserDaoJDBCImpl();
+       //userDao.createUsersTable();
+       // userDao.saveUser("asdfasdf", "asgasfdgasdf", (byte) 44);
+       // userDao.saveUser("aswerdf", "asgdf", (byte) 22);
+       // userDao.removeUserById(1L);
+       //userDao.dropUsersTable();
+
 
     }
 
